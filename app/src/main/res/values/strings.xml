@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DatosPersonales</string>
+    <string name="Registro">Registro</string>
+    <string name="Indicaciones">Rellena todos los campos</string>
+    <string name="Nombre">Nombre</string>
+    <string name="ApePaterno">Apellido Paterno</string>
+    <string name="ApeMaterno">Apellido Materno</string>
+    <string name="Numero">Numero de celular</string>
+    <string name="Edad">Edad</string>
+    <string name="Registrar">Registrar</string>
+</resources>
