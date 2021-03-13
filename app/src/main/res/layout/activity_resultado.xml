@@ -43,6 +43,7 @@
                 android:id="@+id/Numero"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/ovalo"
                 android:text="Button" />
 
             <TextView

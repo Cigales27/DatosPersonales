@@ -16,8 +16,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a91512df-a784-4142-abbb-9ef81a058488" name="Default Changelist" comment="Intento">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ovalo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -221,6 +223,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="100" y="127" width="1166" height="541" key="AVDManager/0.27.1366.741@0.27.1366.741" timestamp="1615511043783" />
+    <state x="266" y="155" width="824" height="480" key="AndroidCreateResourceFileDialog" timestamp="1615613457429">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="266" y="155" width="824" height="480" key="AndroidCreateResourceFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1615613457429" />
     <state x="612" y="48" key="CommitChangelistDialog2" timestamp="1615417025327">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
