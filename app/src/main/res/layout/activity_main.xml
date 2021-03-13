@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#C3E3CE">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -13,43 +14,62 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/Registro" />
+                android:fontFamily="casual"
+                android:text="@string/Registro"
+                android:textColor="#1E1E1E"
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/Indicaciones" />
+                android:fontFamily="casual"
+                android:text="@string/Indicaciones"
+                android:textColor="#272424"
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/txtNombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="@string/Nombre"
                 android:inputType="textPersonName"
-                android:hint="@string/Nombre" />
+                android:textColor="#000000"
+                android:textColorHint="#6C6C6C" />
 
             <EditText
                 android:id="@+id/txtxApePaterno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="@string/ApePaterno"
                 android:inputType="textPersonName"
-                android:hint="@string/ApePaterno" />
+                android:textColor="#0B0A0A"
+                android:textColorHighlight="#020101"
+                android:textColorHint="#403E3E" />
 
             <EditText
                 android:id="@+id/txtxApeMaterno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="@string/ApeMaterno"
                 android:inputType="textPersonName"
-                android:hint="@string/ApeMaterno" />
+                android:textColor="#0B0A0A"
+                android:textColorHint="#403E3E" />
 
             <EditText
                 android:id="@+id/txtxNumero"
@@ -57,21 +77,29 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="@string/Numero"
-                android:inputType="phone" />
+                android:inputType="phone"
+                android:textColor="#0B0A0A"
+                android:textColorHint="#403E3E" />
 
             <EditText
                 android:id="@+id/txtEdad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="@string/Edad"
                 android:inputType="textPersonName"
-                android:hint="@string/Edad" />
+                android:textColor="#0B0A0A"
+                android:textColorHint="#403E3E" />
 
             <Button
                 android:id="@+id/btnRegistrar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/Registrar" />
+                android:background="@drawable/rectangulo"
+                android:text="@string/Registrar"
+                android:textColor="#090909"
+                android:textColorHighlight="#090909"
+                android:textColorLink="#090909" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 

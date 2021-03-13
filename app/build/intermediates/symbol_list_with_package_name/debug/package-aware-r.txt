@@ -23,6 +23,10 @@ anim btn_radio_to_off_mtrl_ring_outer_path_animation
 anim btn_radio_to_on_mtrl_dot_group_animation
 anim btn_radio_to_on_mtrl_ring_outer_animation
 anim btn_radio_to_on_mtrl_ring_outer_path_animation
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -519,6 +523,7 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color azulClaro
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -531,6 +536,7 @@ color bright_foreground_material_dark
 color bright_foreground_material_light
 color button_material_dark
 color button_material_light
+color casiBlanco
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
@@ -805,8 +811,11 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable ovalo
+drawable rectangulo
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font adamina
 id ALT
 id ApeMaterno
 id ApePaterno

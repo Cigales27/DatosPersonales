@@ -1,10 +1,10 @@
 com/example/datospersonales/MainActivity.java
  com.example.datospersonales.MainActivity
  com.example.datospersonales.MainActivity$1
-com/example/datospersonales/Usuario.java
- com.example.datospersonales.Usuario
 com/example/datospersonales/Resultado.java
  com.example.datospersonales.Resultado
  com.example.datospersonales.Resultado$1
+com/example/datospersonales/Usuario.java
+ com.example.datospersonales.Usuario
 com/example/datospersonales/BuildConfig.java
  com.example.datospersonales.BuildConfig
