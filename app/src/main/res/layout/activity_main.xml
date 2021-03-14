@@ -27,6 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
+                android:paddingTop="20dp"
                 android:text="@string/Registro"
                 android:textColor="#1E1E1E"
                 android:textSize="35sp" />
@@ -36,6 +37,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
+                android:paddingTop="10dp"
+                android:paddingBottom="30dp"
                 android:text="@string/Indicaciones"
                 android:textColor="#272424"
                 android:textSize="20sp" />
@@ -95,6 +98,7 @@
                 android:id="@+id/btnRegistrar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
                 android:background="@drawable/rectangulo"
                 android:text="@string/Registrar"
                 android:textColor="#090909"

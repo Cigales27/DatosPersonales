@@ -28,6 +28,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
                 android:text="TextView"
+                android:textColor="#191818"
                 android:textColorLink="#090909"
                 android:textSize="40sp" />
 
@@ -35,29 +36,37 @@
                 android:id="@+id/ApePaterno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:text="TextView"
+                android:textColor="#191818"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/ApeMaterno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:text="TextView"
+                android:textColor="#191818"
                 android:textSize="30sp" />
 
             <Button
                 android:id="@+id/Numero"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/ovalo"
                 android:text="Button"
+                android:textColor="#191818"
                 android:textColorLink="#4E81C1" />
 
             <TextView
                 android:id="@+id/Edad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:text="TextView"
+                android:textColor="#191818"
                 android:textSize="30sp" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

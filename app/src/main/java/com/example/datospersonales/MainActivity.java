@@ -9,6 +9,7 @@ import android.os.Parcelable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import java.io.Serializable;
 import java.util.Stack;
@@ -32,20 +33,26 @@ public class MainActivity extends AppCompatActivity {
                 ApeMaterno = (EditText) findViewById(R.id.txtxApeMaterno);
                 Numero = (EditText) findViewById(R.id.txtxNumero);
                 Edad = (EditText) findViewById(R.id.txtEdad);
+                String nombre = Nombre.getText().toString();
+                String numero = Numero.getText().toString();
+                if(nombre!="" && numero!=null)
+                {
+                    Usuario usuario = new Usuario();
+                    usuario.setNombre(Nombre.getText().toString());
+                    usuario.setApePaterno(ApePaterno.getText().toString());
+                    usuario.setApeMaterno(ApeMaterno.getText().toString());
+                    usuario.setNumero(Numero.getText().toString());
+                    usuario.setEdad(Edad.getText().toString());
+                    Intent resultado = new Intent(view.getContext(), Resultado.class);
 
-                Usuario usuario = new Usuario();
-                usuario.setNombre(Nombre.getText().toString());
-                usuario.setApePaterno(ApePaterno.getText().toString());
-                usuario.setApeMaterno(ApeMaterno.getText().toString());
-                usuario.setNumero(Numero.getText().toString());
-                usuario.setEdad(Edad.getText().toString());
-                Intent resultado = new Intent(view.getContext(), Resultado.class);
+                    Bundle bundle = new Bundle();
+                    bundle.putSerializable("usuario", usuario);
+                    resultado.putExtras(bundle);
 
-                Bundle bundle = new Bundle();
-                bundle.putSerializable("usuario", usuario);
-                resultado.putExtras(bundle);
-
-                startActivity(resultado);
+                    startActivity(resultado);
+                }else {
+                    Toast.makeText(MainActivity.this, "Ingresa todos los campos", Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }
