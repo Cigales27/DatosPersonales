@@ -902,6 +902,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnLogin
 id btnRegistrar
 id buttonPanel
 id cache_measures
@@ -1056,6 +1057,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
 id textView2
+id textView3
 id time
 id title
 id titleDividerNoCustom
@@ -1067,6 +1069,7 @@ id transitionToEnd
 id transitionToStart
 id triangle
 id txtEdad
+id txtLogNombre
 id txtNombre
 id txtxApeMaterno
 id txtxApePaterno
@@ -1119,6 +1122,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login
 layout activity_main
 layout activity_resultado
 layout custom_dialog
